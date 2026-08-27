@@ -15,10 +15,10 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
   {
     name: 'Plan Starter',
     badge: 'Iniciación',
-    credits: 'USD 10,00 Créditos',
-    price: '$10.00',
-    amount: 10,
-    multiplier: 'Hasta ~$50-60 de valor con Cache',
+    credits: 'USD 12,50 Créditos',
+    price: '$12.50',
+    amount: 12.5,
+    multiplier: 'Hasta ~$65-75 de valor con Cache',
     description:
       'Ideal para pruebas rápidas, scripts y primeros proyectos con Claude Code.',
     features: [
@@ -29,7 +29,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard personal de consumo en vivo',
       'Guía completa de conexión incluida',
     ],
-    cta: 'Comprar R$ 9,00',
+    cta: 'Comprar R$ 29,00',
     popular: false,
   },
   {
@@ -49,7 +49,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard con desglose de tokens',
       'Soporte 24/7 y garantía de disponibilidad',
     ],
-    cta: 'Comprar R$ 19,00',
+    cta: 'Comprar R$ 49,00',
     popular: false,
   },
   {
@@ -69,16 +69,16 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Sin degradación ni corte de modelos',
       'Garantía de reposición de saldo',
     ],
-    cta: 'Comprar R$ 29,00',
+    cta: 'Comprar R$ 69,00',
     popular: false,
   },
   {
     name: 'Plan Power Developer',
     badge: '⭐ Más Popular',
-    credits: 'USD 100,00 Créditos',
-    price: '$100.00',
-    amount: 100,
-    multiplier: 'Hasta ~$500-600 de valor con Cache',
+    credits: 'USD 125,00 Créditos',
+    price: '$125.00',
+    amount: 125,
+    multiplier: 'Hasta ~$625-750 de valor con Cache',
     description:
       'El paquete preferido por la comunidad. Máximo rendimiento y productividad 5–6x más uso.',
     features: [
@@ -89,7 +89,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Prioridad técnica en soporte 24/7',
       'Garantía total de acceso y disponibilidad',
     ],
-    cta: 'Comprar R$ 90,00',
+    cta: 'Comprar R$ 290,00',
     popular: true,
   },
   {
@@ -109,7 +109,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Reemplazo inmediato garantizado',
       'Atención preferencial 24/7',
     ],
-    cta: 'Comprar R$ 190,00',
+    cta: 'Comprar R$ 490,00',
     popular: false,
   },
   {
@@ -129,7 +129,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard multi-sesión avanzado',
       'SLA y soporte preferencial prioritario',
     ],
-    cta: 'Comprar R$ 290,00',
+    cta: 'Comprar R$ 690,00',
     popular: false,
   },
 ];
