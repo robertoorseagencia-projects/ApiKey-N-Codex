@@ -18,7 +18,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     credits: 'USD 12,50 Créditos',
     price: '$12.50',
     amount: 12.5,
-    multiplier: 'Hasta ~$65-75 de valor con Cache',
+    multiplier: 'Rendimiento real de ~$40–$50 USD con Cache',
     description:
       'Ideal para pruebas rápidas, scripts y primeros proyectos con Claude Code.',
     features: [
@@ -38,7 +38,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     credits: 'USD 25,00 Créditos',
     price: '$25.00',
     amount: 25,
-    multiplier: 'Hasta ~$125-150 de valor con Cache',
+    multiplier: 'Rendimiento real de ~$85–$110 USD con Cache',
     description:
       'Perfecto para programadores con sesiones regulares de código en VS Code y Cursor.',
     features: [
@@ -58,7 +58,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     credits: 'USD 50,00 Créditos',
     price: '$50.00',
     amount: 50,
-    multiplier: 'Hasta ~$250-300 de valor con Cache',
+    multiplier: 'Rendimiento real de ~$175–$225 USD con Cache',
     description:
       'Para constructores de software y flujos combinados con Lovable y Capcut.',
     features: [
@@ -78,12 +78,12 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     credits: 'USD 125,00 Créditos',
     price: '$125.00',
     amount: 125,
-    multiplier: 'Hasta ~$625-750 de valor con Cache',
+    multiplier: 'Rendimiento real de ~$450–$600 USD con Cache',
     description:
-      'El paquete preferido por la comunidad. Máximo rendimiento y productividad 5–6x más uso.',
+      'El paquete preferido por la comunidad. Máximo rendimiento y productividad 3.5–5x más uso.',
     features: [
       'Todo lo incluido en el Plan Builder',
-      'Máximo ahorro: 5 a 6 veces más uso total',
+      'Máximo ahorro: 3.5 a 5 veces más uso efectivo',
       'Archivo de configuración OpenClaw listo',
       'Historial de consumo y costo transparente',
       'Prioridad técnica en soporte 24/7',
@@ -98,7 +98,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     credits: 'USD 250,00 Créditos',
     price: '$250.00',
     amount: 250,
-    multiplier: 'Hasta ~$1,250-1,500 de valor con Cache',
+    multiplier: 'Rendimiento real de ~$900–$1,200 USD con Cache',
     description:
       'Para desarrolladores intensivos, micro-agencias y agentes autónomos concurrentes.',
     features: [
@@ -118,7 +118,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     credits: 'USD 500,00 Créditos',
     price: '$500.00',
     amount: 500,
-    multiplier: 'Hasta ~$2,500-3,000 de valor con Cache',
+    multiplier: 'Rendimiento real de ~$1,800–$2,400 USD con Cache',
     description:
       'Máxima capacidad para empresas y equipos que demandan alto volumen continuo al menor costo.',
     features: [
