@@ -79,11 +79,11 @@ export default function HeroSection() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g opacity="0.5" filter="url(#filter0_f_9279_7148)">
-                  <circle cx="800" cy="500.03" r="300" fill="#D97757" />
+                <g opacity="0.4" filter="url(#filter0_f_9279_7148)">
+                  <circle cx="800" cy="500.03" r="300" fill="#1E3A8A" />
                 </g>
-                <g opacity="0.35" filter="url(#filter1_f_9279_7148)">
-                  <circle cx="500" cy="500.03" r="300" fill="#F59E0B" />
+                <g opacity="0.3" filter="url(#filter1_f_9279_7148)">
+                  <circle cx="500" cy="500.03" r="300" fill="#2563EB" />
                 </g>
                 <defs>
                   <filter

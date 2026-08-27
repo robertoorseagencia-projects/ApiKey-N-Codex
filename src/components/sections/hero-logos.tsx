@@ -140,7 +140,7 @@ export default function HeroLogos() {
     <div className="wrapper">
       <div className="max-w-[1120px] relative z-30 mx-auto pt-10 pb-14 text-center">
         {/* Título */}
-        <h2 className="text-center text-gray-900 dark:text-white/90 text-sm sm:text-base md:text-lg font-bold tracking-tight mb-7">
+        <h2 className="text-center text-white font-bold text-sm sm:text-base md:text-lg tracking-tight mb-7 drop-shadow-xs">
           Compatible con las principales herramientas de desarrollo y automatización con IA
         </h2>
 
@@ -149,10 +149,10 @@ export default function HeroLogos() {
           {row1.map((tool) => (
             <div
               key={tool.name}
-              className="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-white dark:bg-white/[0.06] border border-gray-200/90 dark:border-white/10 shadow-xs hover:border-primary-400 dark:hover:border-primary-500/50 hover:shadow-sm transition-all duration-200"
+              className="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-slate-900/85 backdrop-blur-md border border-slate-700/70 shadow-sm hover:border-primary-400/80 hover:bg-slate-900 hover:shadow-md transition-all duration-200"
             >
               {tool.icon}
-              <span className="text-xs sm:text-sm font-semibold text-gray-800 dark:text-gray-100">
+              <span className="text-xs sm:text-sm font-semibold text-white">
                 {tool.name}
               </span>
             </div>
@@ -164,10 +164,10 @@ export default function HeroLogos() {
           {row2.map((tool) => (
             <div
               key={tool.name}
-              className="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-white dark:bg-white/[0.06] border border-gray-200/90 dark:border-white/10 shadow-xs hover:border-primary-400 dark:hover:border-primary-500/50 hover:shadow-sm transition-all duration-200"
+              className="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-slate-900/85 backdrop-blur-md border border-slate-700/70 shadow-sm hover:border-primary-400/80 hover:bg-slate-900 hover:shadow-md transition-all duration-200"
             >
               {tool.icon}
-              <span className="text-xs sm:text-sm font-semibold text-gray-800 dark:text-gray-100">
+              <span className="text-xs sm:text-sm font-semibold text-white">
                 {tool.name}
               </span>
             </div>
@@ -175,15 +175,15 @@ export default function HeroLogos() {
         </div>
 
         {/* Texto inferior */}
-        <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1.5 text-xs text-gray-500 dark:text-gray-400 max-w-4xl mx-auto leading-relaxed">
+        <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1.5 text-xs text-slate-300 max-w-4xl mx-auto leading-relaxed">
           <span className="flex items-center gap-1">
-            <span className="text-emerald-500 font-bold">✓</span> Sin VPN ni configuraciones complejas
+            <span className="text-emerald-400 font-bold">✓</span> Sin VPN ni configuraciones complejas
           </span>
           <span className="flex items-center gap-1">
-            <span className="text-emerald-500 font-bold">✓</span> Conexión estándar mediante <code className="text-primary-600 dark:text-primary-400 font-mono text-[11px] bg-primary-50 dark:bg-primary-950/40 px-1.5 py-0.5 rounded border border-primary-200/60 dark:border-primary-800/40 font-semibold">ANTHROPIC_BASE_URL</code>
+            <span className="text-emerald-400 font-bold">✓</span> Conexión estándar mediante <code className="text-primary-400 font-mono text-[11px] bg-slate-800/90 px-2 py-0.5 rounded border border-slate-700 font-semibold">ANTHROPIC_BASE_URL</code>
           </span>
           <span className="flex items-center gap-1">
-            <span className="text-emerald-500 font-bold">✓</span> También funciona con cualquier aplicación, automatización o backend compatible con conexiones de API estándar.
+            <span className="text-emerald-400 font-bold">✓</span> También funciona con cualquier aplicación, automatización o backend compatible con conexiones de API estándar.
           </span>
         </div>
       </div>
