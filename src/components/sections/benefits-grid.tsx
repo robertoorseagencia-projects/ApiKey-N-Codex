@@ -45,13 +45,13 @@ export default function BenefitsGrid() {
               <div className="relative flex flex-col justify-between bg-gray-800 border border-gray-700 rounded-[24px] p-8 md:p-12 h-full shadow-xl">
                 <div>
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-500/20 text-primary-400 text-xs font-bold mb-6">
-                    🏢 Infraestructura Enterprise
+                    ⚡ Alto Rendimiento
                   </div>
                   <h3 className="font-extrabold text-white text-2xl md:text-3xl mb-4 tracking-tight">
-                    Pool AWS Vertex AI Max200
+                    Rendimiento de 5 a 6 Veces Mayor
                   </h3>
                   <p className="text-base text-gray-300 leading-relaxed">
-                    Conexión directa a clústeres corporativos de máxima disponibilidad. <strong>Garantizamos que nunca sustituimos ni degradamos</strong> los modelos que compras: Opus 5 Thinking, Sonnet 4.6 y Haiku 4.5 100% auténticos.
+                    Debido a este descuento, si tus herramientas aprovechan la memoria caché (enviando los parámetros adecuados), tu saldo disponible te rendirá entre <strong>5 y 6 veces más</strong> que en servicios de vendedores que no soportan esta función.
                   </p>
                 </div>
 
