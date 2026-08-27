@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,10 +9,10 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "avatars.githubusercontent.com",
+        hostname: 'avatars.githubusercontent.com',
       },
       {
-        hostname: "lh3.googleusercontent.com",
+        hostname: 'lh3.googleusercontent.com',
       },
     ],
   },
