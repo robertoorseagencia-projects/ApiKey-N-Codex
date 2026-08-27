@@ -26,10 +26,10 @@ export default function BenefitsGrid() {
                     ⚡ Alta Eficiencia
                   </div>
                   <h3 className="font-extrabold text-white text-2xl md:text-3xl mb-4 tracking-tight">
-                    Prompt-Cache: 90% Menos en Costos
+                    Descuento del 90% en Tokens Cacheados
                   </h3>
                   <p className="text-base text-white/90 leading-relaxed">
-                    A diferencia de otras plataformas que cobran la tarifa completa por cada llamada, nuestro sistema soporta y honra los aciertos de caché. Tu paquete rinde entre <strong>5 a 6 veces más</strong> en bases de código grandes.
+                    Cuando envías peticiones con contexto repetido (por ejemplo, archivos de código grandes, instrucciones de sistema o chats largos), la API reutiliza esa información almacenada en caché y te cobra solo un <strong>10% del precio normal</strong> por esa porción de datos.
                   </p>
                 </div>
 
