@@ -13,6 +13,10 @@
     "db:migrate": "npx drizzle-kit migrate",
     "stripe:listen": "stripe listen --forward-to localhost:3000/api/webhooks/stripe"
   },
+  "allowScripts": {
+    "sharp": true,
+    "unrs-resolver": true
+  },
   "dependencies": {
     "@ai-sdk/openai": "^1.3.10",
     "@ai-sdk/react": "^1.2.8",
