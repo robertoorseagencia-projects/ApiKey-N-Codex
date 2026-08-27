@@ -60,21 +60,15 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="max-w-[1000px] mx-auto relative">
-            <div className="p-3 sm:p-[18px] relative z-30 rounded-[32px] border border-white/30 dark:border-white/10 bg-white/20">
+          <div className="max-w-[1050px] mx-auto relative">
+            <div className="p-2.5 sm:p-4 relative z-30 rounded-[28px] sm:rounded-[36px] border border-gray-200/80 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-md shadow-2xl shadow-primary-500/10">
               <Image
-                src="/images/hero/hero-img.jpg"
-                alt="Claude Code & API Dashboard Interface"
-                className="w-full rounded-2xl block dark:hidden shadow-2xl"
-                width={966}
-                height={552}
-              />
-              <Image
-                src="/images/hero/hero-img-dark.png"
-                alt="Claude Code & API Dashboard Interface Dark"
-                className="w-full rounded-2xl hidden dark:block shadow-2xl"
-                width={966}
-                height={552}
+                src="/images/hero/hero-dashboard-real.png"
+                alt="Claude-n-Codex Dashboard Oficial - API Key, Base URL & Balance"
+                className="w-full rounded-xl sm:rounded-2xl border border-gray-100 dark:border-gray-800 shadow-xl object-cover"
+                width={1200}
+                height={680}
+                priority
               />
             </div>
             <div className="absolute hidden lg:block z-10 -top-20 -translate-y-20 left-1/2 -translate-x-1/2">
