@@ -16,8 +16,8 @@ export default function HeroSection() {
                 Créditos para <span className="text-primary-500 underline decoration-primary-300/40 decoration-wavy">Claude Code</span> y las Mejores IAs al Mejor Precio
               </h1>
               
-              <p className="max-w-[680px] text-center mx-auto dark:text-gray-300 text-gray-600 text-base sm:text-lg leading-relaxed mb-6">
-                Compramos capacidad de cómputo en pool corporativo de alto volumen y la compartimos al detal para que todos tengamos acceso sin barreras. Paga únicamente por lo que usas en <strong>Claude Code, Lovable, Capcut</strong> y tus entornos favoritos con <strong>Prompt Caching (hasta 90% de ahorro)</strong> y entrega inmediata 24/7.
+              <p className="max-w-[720px] text-center mx-auto dark:text-gray-300 text-gray-600 text-base sm:text-lg leading-relaxed mb-6">
+                Compartimos capacidad de cómputo adquirida en pools de alto volumen para ofrecerte acceso flexible a <strong>Claude Code</strong> y otros entornos compatibles. Sin barreras de entrada: paga solo por tu consumo, optimiza costos con <strong>Prompt Caching</strong> y recibe acceso inmediato las 24 horas.
               </p>
 
               {/* Social Proof Badges */}
