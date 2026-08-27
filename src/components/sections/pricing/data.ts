@@ -29,7 +29,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard personal de consumo en vivo',
       'Guía completa de conexión incluida',
     ],
-    cta: 'Comprar USD $10,00',
+    cta: 'Comprar R$ 9,00',
     popular: false,
   },
   {
@@ -49,7 +49,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard con desglose de tokens',
       'Soporte 24/7 y garantía de disponibilidad',
     ],
-    cta: 'Comprar USD $25,00',
+    cta: 'Comprar R$ 19,00',
     popular: false,
   },
   {
@@ -69,7 +69,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Sin degradación ni corte de modelos',
       'Garantía de reposición de saldo',
     ],
-    cta: 'Comprar USD $50,00',
+    cta: 'Comprar R$ 29,00',
     popular: false,
   },
   {
@@ -89,7 +89,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Prioridad técnica en soporte 24/7',
       'Garantía total de acceso y disponibilidad',
     ],
-    cta: 'Comprar USD $100,00',
+    cta: 'Comprar R$ 90,00',
     popular: true,
   },
   {
@@ -109,7 +109,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Reemplazo inmediato garantizado',
       'Atención preferencial 24/7',
     ],
-    cta: 'Comprar USD $250,00',
+    cta: 'Comprar R$ 190,00',
     popular: false,
   },
   {
@@ -129,7 +129,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard multi-sesión avanzado',
       'SLA y soporte preferencial prioritario',
     ],
-    cta: 'Comprar USD $500,00',
+    cta: 'Comprar R$ 290,00',
     popular: false,
   },
 ];
