@@ -6,7 +6,7 @@ import ToolsTab from '@/components/sections/tools-tab';
 import { CoreFeatures } from '@/components/sections/core-features';
 import PricingSection from '@/components/sections/pricing';
 
-export default async function Home() {
+export default function Home() {
   return (
     <>
       <HeroSection />
