@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div className="wrapper">
           <div className="max-w-[800px] mx-auto">
             <div className="text-center pb-16">
-              <Subheading text="DEMOCRATIZACIÓN DE IA • COMPRA AL MAYOR, ACCEDE AL DETAL" />
+              <Subheading text="Claude Code ahora mais accesivel para todos" />
 
               <h1 className="text-gray-900 mx-auto font-extrabold mb-5 text-4xl sm:text-5xl lg:text-[54px] dark:text-white sm:leading-[1.18] max-w-[840px] tracking-tight">
                 Créditos para <span className="text-primary-500 underline decoration-primary-300/40 decoration-wavy">Claude Code</span> y las Mejores IAs al Mejor Precio
