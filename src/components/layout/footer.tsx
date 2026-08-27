@@ -74,22 +74,12 @@ export default function Footer() {
                   <span className="block mb-4 text-xs font-bold uppercase tracking-wider text-gray-300">
                     Plataforma & Planes
                   </span>
-                  <nav className="flex flex-col space-y-2.5">
                     <Link
                       href="#pricing"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
                     >
-                      Planes desde $10 USD
+                      Planes desde R$ 29
                     </Link>
-                    <a
-                      href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-gray-400 transition hover:text-primary-400 flex items-center gap-1.5"
-                    >
-                      <span>Dashboard Demo</span>
-                      <span className="text-[10px] bg-primary-500/20 text-primary-400 px-1.5 py-0.5 rounded font-mono">En vivo</span>
-                    </a>
                     <Link
                       href="#tools"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
@@ -158,14 +148,6 @@ export default function Footer() {
             <div className="flex gap-6">
               <Link href="#pricing" className="hover:text-gray-400 transition">Términos del Servicio</Link>
               <Link href="#faq" className="hover:text-gray-400 transition">Política de Garantía</Link>
-              <a
-                href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-400 transition"
-              >
-                Dashboard
-              </a>
             </div>
           </div>
         </div>

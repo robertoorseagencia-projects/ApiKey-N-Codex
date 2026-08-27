@@ -82,14 +82,6 @@ export default function BenefitsGrid() {
                     >
                       Comprar Créditos de IA
                     </Link>
-                    <a
-                      href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-semibold text-sm text-gray-300 hover:text-white border border-gray-600 hover:border-gray-400 rounded-full py-3 px-6 transition"
-                    >
-                      Explorar Dashboard Demo
-                    </a>
                   </div>
                 </div>
 

@@ -52,15 +52,6 @@ export default function Header() {
               {mobileMenuOpen ? <CloseIcon /> : <MenuIcon />}
             </button>
 
-            <a
-              href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm hidden lg:block font-medium text-gray-700 dark:text-gray-300 hover:text-primary-500 transition"
-            >
-              Dashboard Demo
-            </a>
-
             <Link
               href="#pricing"
               className="lg:inline-flex items-center px-5 py-2.5 gradient-btn hidden text-sm font-semibold text-white rounded-full button-bg shadow-sm hover:shadow-md transition"

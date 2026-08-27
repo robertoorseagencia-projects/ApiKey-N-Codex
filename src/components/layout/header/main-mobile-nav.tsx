@@ -98,15 +98,6 @@ export default function MainMobileNav({ isOpen }: MobileMenuProps) {
         </div>
 
         <div className="flex flex-col pt-2 pb-3 space-y-3 px-8">
-          <a
-            href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm block w-full border h-11 border-gray-200 dark:border-gray-700 px-5 py-3 rounded-full text-center font-medium text-gray-700 dark:text-gray-300 hover:text-primary-500"
-          >
-            Ver Dashboard Demo
-          </a>
-
           <Link
             href="/#pricing"
             className="flex items-center px-5 py-3 gradient-btn justify-center text-sm font-semibold text-white rounded-full button-bg h-11"

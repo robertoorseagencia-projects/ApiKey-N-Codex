@@ -36,9 +36,4 @@ export const navItems: NavItem[] = [
     label: 'FAQ',
     href: '/#faq',
   },
-  {
-    type: 'link',
-    label: 'Dashboard Demo',
-    href: 'https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE',
-  },
 ];

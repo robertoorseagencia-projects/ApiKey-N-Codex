@@ -43,18 +43,10 @@ export default function PricingSection() {
                 Entrega Inmediata y Transparencia Absoluta
               </p>
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                Recibes tu <code className="text-primary-500 font-mono">ANTHROPIC_API_KEY</code>, <code className="text-primary-500 font-mono">ANTHROPIC_BASE_URL</code> y enlace a tu Dashboard personal en segundos.
+                Recibes tu <code className="text-primary-500 font-mono">ANTHROPIC_API_KEY</code>, <code className="text-primary-500 font-mono">ANTHROPIC_BASE_URL</code> y enlace a tu Dashboard personal de consumo en segundos.
               </p>
             </div>
           </div>
-          <a
-            href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs font-bold text-primary-600 dark:text-primary-400 hover:underline whitespace-nowrap"
-          >
-            Ver Dashboard Demo →
-          </a>
         </div>
       </div>
     </section>

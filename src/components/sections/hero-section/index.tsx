@@ -36,27 +36,13 @@ export default function HeroSection() {
                 </span>
               </div>
 
-              <div className="mt-2 flex sm:flex-row flex-col gap-3.5 relative z-30 items-center justify-center">
+              <div className="mt-2 flex gap-3.5 relative z-30 items-center justify-center">
                 <Link
                   href="#pricing"
-                  className="gradient-btn h-12 inline-flex items-center justify-center px-7 py-3 rounded-full text-white text-sm font-semibold shadow-lg shadow-primary-500/25 hover:scale-[1.02] transition transform"
+                  className="gradient-btn h-12 inline-flex items-center justify-center px-8 py-3 rounded-full text-white text-base font-bold shadow-lg shadow-primary-500/25 hover:scale-[1.03] transition transform"
                 >
                   Ver Planes de Créditos
                 </Link>
-
-                <a
-                  href="https://claude-n-codex.com/dashboard/sk-myapi_DNjeNSKs1-_WHqEDOF7q8gZ-yiiNWy56NWB9S_rQf0fauPC11fKmQE"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-full flex h-12 gap-2.5 items-center text-sm font-medium border bg-white dark:bg-white/10 dark:border-white/15 dark:text-white border-gray-200 px-6 hover:bg-gray-50 dark:hover:bg-white/15 transition"
-                >
-                  <svg className="size-4 text-primary-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="3" y="3" width="18" height="18" rx="2" />
-                    <path d="M3 9h18" />
-                    <path d="M9 21V9" />
-                  </svg>
-                  Probar Dashboard Demo
-                </a>
               </div>
             </div>
           </div>
