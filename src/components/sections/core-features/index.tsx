@@ -24,13 +24,14 @@ export function CoreFeatures() {
               key={feature.title}
               className="bg-white p-9 border border-gray-200 dark:bg-white/5 dark:border-white/3 rounded-[20px] shadow-[0px_30px_50px_-32px_rgba(107,110,148,0.04)]"
             >
-              <div className="core-feature-icon mb-9">
+              <div className="core-feature-icon mb-8">
                 <Image
                   src={feature.iconUrl}
                   alt={feature.title}
                   role="presentation"
-                  width={40}
-                  height={40}
+                  width={28}
+                  height={28}
+                  className="w-7 h-7"
                 />
               </div>
 
