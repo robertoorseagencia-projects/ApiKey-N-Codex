@@ -8,7 +8,7 @@ import { useState } from 'react';
       id: 1,
       name: 'Carlos Mendoza',
       company: 'Tech Lead @ DevLatam',
-      image: '/images/users/user-1.png',
+      image: '/images/users/user-1.jpg',
       testimonial:
         'Conectar esta API Key a Claude Code CLI fue inmediato. El Prompt Caching funciona al 100%, las lecturas de caché son 90% más baratas y el saldo de $100 me ha rendido como si fueran $500.',
     },
@@ -16,7 +16,7 @@ import { useState } from 'react';
       id: 2,
       name: 'Sofía Valenzuela',
       company: 'Fullstack Engineer & Freelancer',
-      image: '/images/users/user-2.png',
+      image: '/images/users/user-2.jpg',
       testimonial:
         'Antes pagaba suscripciones mensuales fijas que no aprovechaba. Ahora compro $25 o $50 en créditos y solo gasto cuando desarrollo en Cursor y VS Code. Entrega automática en segundos.',
     },
@@ -24,7 +24,7 @@ import { useState } from 'react';
       id: 3,
       name: 'Alejandro Morales',
       company: 'AI Automation Specialist',
-      image: '/images/users/user-3.png',
+      image: '/images/users/user-3.jpg',
       testimonial:
         'Uso la Base URL en mis pipelines de N8N y agentes OpenClaw. La latencia es mínima gracias al pool AWS Vertex AI y no he tenido ni una sola caída en 3 meses de uso continuo.',
     },
@@ -32,15 +32,15 @@ import { useState } from 'react';
       id: 4,
       name: 'Mariana Reyes',
       company: 'Product Designer @ Studio 84',
-      image: '/images/users/user-4.png',
+      image: '/images/users/user-4.jpg',
       testimonial:
-        'Integré los créditos para flujos de diseño con Lovable y Capcut. El dashboard de monitoreo en tiempo real es súper transparente para ver cuánto consume cada generación.',
+        'Integré los créditos para flujos de prototipado rápido en Lovable y Claude Desktop. El dashboard de monitoreo en tiempo real es súper transparente para ver cuánto consume cada generación.',
     },
     {
       id: 5,
       name: 'David Gutiérrez',
       company: 'Senior Backend Developer',
-      image: '/images/users/user-1.png',
+      image: '/images/users/user-5.jpg',
       testimonial:
         'Claude Opus 5 Thinking y Sonnet 4.6 funcionan con toda su capacidad de razonamiento. No hay degradación de modelos ni trucos raros, es acceso directo enterprise al mejor precio.',
     },
@@ -48,7 +48,7 @@ import { useState } from 'react';
       id: 6,
       name: 'Elena Ramos',
       company: 'Founder @ AutomateAI',
-      image: '/images/users/user-2.png',
+      image: '/images/users/user-6.jpg',
       testimonial:
         'El soporte 24/7 respondió una duda de configuración con Roo Code en minutos. Democratizar estos créditos al por mayor es lo mejor que le ha pasado a la comunidad dev.',
     },
