@@ -39,7 +39,7 @@ export function PricingCard({ plan }: Props) {
 
           <div className="mt-4 pb-4 border-b border-gray-100 dark:border-white/5">
             {/* Comparativa con Anthropic Oficial */}
-            <div className="flex items-center gap-2 mb-1.5">
+            <div className="flex items-center gap-2 mb-2">
               <span className="text-xs text-gray-400 line-through">
                 Anthropic Oficial: {plan.officialPrice}
               </span>
@@ -48,21 +48,32 @@ export function PricingCard({ plan }: Props) {
               </span>
             </div>
 
-            {/* Precio Real */}
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white tracking-tight">
+            {/* Cantidad de Tokens como Destacado Principal */}
+            <div className="flex items-baseline gap-2 mb-1">
+              <span className="text-4xl sm:text-[44px] font-extrabold text-gray-900 dark:text-white tracking-tight">
+                {plan.tokenAmount}
+              </span>
+              <span className="text-xl font-bold text-primary-500">
+                Tokens
+              </span>
+            </div>
+
+            {/* Precio en Reales */}
+            <div className="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-300 font-medium mt-1">
+              <span>Por apenas</span>
+              <span className="text-lg font-extrabold text-gray-900 dark:text-white">
                 {plan.price}
               </span>
-              <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">
-                pagamento único via Pix
+              <span className="text-xs text-gray-500 dark:text-gray-400 font-normal">
+                via Pix
               </span>
             </div>
             
-            {/* Tokens y Saldo */}
-            <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-500/10 border border-primary-200/80 dark:border-primary-500/20 text-xs font-bold text-primary-600 dark:text-primary-400">
-              <span>⚡ {plan.tokens}</span>
-            </div>
-            <p className="text-[11px] font-medium text-amber-600 dark:text-amber-400 mt-2">
+            {/* Saldo y Multiplier */}
+            <p className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 mt-2.5 flex items-center gap-1">
+              <span>⚡ {plan.credits}</span>
+            </p>
+            <p className="text-[11px] font-medium text-amber-600 dark:text-amber-400 mt-0.5">
               {plan.multiplier}
             </p>
           </div>

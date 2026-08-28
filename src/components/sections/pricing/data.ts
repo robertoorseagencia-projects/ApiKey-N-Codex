@@ -1,6 +1,7 @@
 export type TBILLING_PLAN = {
   name: string;
   badge?: string;
+  tokenAmount: string;
   tokens: string;
   officialPrice: string;
   discount: string;
@@ -17,6 +18,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
   {
     name: 'Plano Starter',
     badge: 'Iniciação',
+    tokenAmount: '25M',
     tokens: '25 Milhões de Tokens',
     officialPrice: '~R$ 390',
     discount: '82% OFF',
@@ -33,12 +35,13 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Dashboard pessoal de consumo em tempo real',
       'Guia completo de conexão incluso',
     ],
-    cta: 'Comprar via Pix • R$ 69,00',
+    cta: 'Comprar 25M • R$ 69,00',
     popular: false,
   },
   {
     name: 'Plano Pro Builder',
     badge: '⭐ Mais Popular',
+    tokenAmount: '50M',
     tokens: '50 Milhões de Tokens',
     officialPrice: '~R$ 780',
     discount: '83% OFF',
@@ -55,12 +58,13 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Sem degradação nem cortes de modelos',
       'Garantia total de reposição de saldo',
     ],
-    cta: 'Comprar via Pix • R$ 129,00',
+    cta: 'Comprar 50M • R$ 129,00',
     popular: true,
   },
   {
     name: 'Plano Power Dev',
     badge: '⚡ Melhor Custo-Benefício',
+    tokenAmount: '100M',
     tokens: '100 Milhões de Tokens',
     officialPrice: '~R$ 1.560',
     discount: '84% OFF',
@@ -77,7 +81,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Prioridade técnica no suporte 24/7',
       'Garantia total de acesso e disponibilidade',
     ],
-    cta: 'Comprar via Pix • R$ 249,00',
+    cta: 'Comprar 100M • R$ 249,00',
     popular: false,
   },
 ];
