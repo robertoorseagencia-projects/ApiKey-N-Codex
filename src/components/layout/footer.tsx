@@ -74,6 +74,7 @@ export default function Footer() {
                   <span className="block mb-4 text-xs font-bold uppercase tracking-wider text-gray-300">
                     Plataforma & Planes
                   </span>
+                  <nav className="flex flex-col space-y-2.5">
                     <Link
                       href="#pricing"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
