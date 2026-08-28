@@ -16,7 +16,7 @@ export default function BenefitsGrid() {
             Acesso democratizado à inteligência artificial mais avançada do planeta sem assinaturas mensais fixas de 20 a 200 dólares.
           </p>
         </div>
-        <div className="max-w-[1080px] mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-12 gap-6 sm:gap-8">
             {/* Card 1 */}
             <div className="lg:col-span-6">

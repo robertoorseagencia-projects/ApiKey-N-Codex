@@ -140,7 +140,7 @@ export default function HeroLogos() {
 
   return (
     <div className="wrapper">
-      <div className="max-w-[1120px] relative z-30 mx-auto pt-10 pb-14 text-center">
+      <div className="max-w-6xl relative z-30 mx-auto pt-10 pb-14 text-center">
         {/* Título */}
         <h2 className="text-center text-white font-bold text-sm sm:text-base md:text-lg tracking-tight mb-7 drop-shadow-xs">
           Compatível com as principais ferramentas de desenvolvimento e automação com IA
