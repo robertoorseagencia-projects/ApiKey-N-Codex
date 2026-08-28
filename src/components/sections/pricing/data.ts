@@ -11,6 +11,7 @@ export type TBILLING_PLAN = {
   description: string;
   features: string[];
   cta: string;
+  checkoutUrl: string;
   popular: boolean;
 };
 
@@ -36,6 +37,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Guia completo de conexão incluso',
     ],
     cta: 'Comprar 25M • R$ 69,00',
+    checkoutUrl: 'https://loja.infinitepay.io/apikey-n-codex/fxi4727-1-plano-starter-25m-tokens',
     popular: false,
   },
   {
@@ -59,6 +61,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Garantia total de reposição de saldo',
     ],
     cta: 'Comprar 50M • R$ 129,00',
+    checkoutUrl: 'https://loja.infinitepay.io/apikey-n-codex/wxx6520-2-plano-pro-builder-50m-tokens',
     popular: true,
   },
   {
@@ -82,6 +85,7 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
       'Garantia total de acesso e disponibilidade',
     ],
     cta: 'Comprar 100M • R$ 249,00',
+    checkoutUrl: 'https://loja.infinitepay.io/apikey-n-codex/nti1640-3-plano-power-dev-100m-tokens',
     popular: false,
   },
 ];

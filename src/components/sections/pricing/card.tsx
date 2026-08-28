@@ -82,10 +82,10 @@ export function PricingCard({ plan }: Props) {
             {plan.description}
           </p>
 
-          <button
-            onClick={() => {
-              alert(`Você selecionou o ${plan.name} (${plan.tokens}). Redirecionando para o checkout via Pix com entrega automática 24/7.`);
-            }}
+          <a
+            href={plan.checkoutUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className={cn(
               'block w-full px-6 py-3.5 mt-6 text-sm font-semibold text-center rounded-full transition shadow-xs cursor-pointer',
               plan.popular
@@ -94,7 +94,7 @@ export function PricingCard({ plan }: Props) {
             )}
           >
             {plan.cta}
-          </button>
+          </a>
         </div>
 
         <div className="px-6 sm:px-8 pb-7 pt-2">
