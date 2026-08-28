@@ -32,7 +32,7 @@ export const CORE_FEATURES = [
     iconUrl: icons.bulb,
   },
   {
-    title: "Compatible con Claude Desktop y Claude Code CLI",
+    title: "Compatible con Claude Desktop/CLI",
     description:
       "Conéctalo sin fricciones con Cursor, VS Code, Antigravity, Codex CLI, OpenClaw, n8n, Lovable, Python SDK y más de 30 herramientas de desarrollo, automatización e IA.",
     iconUrl: icons.laptop,
