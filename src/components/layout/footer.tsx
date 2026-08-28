@@ -59,7 +59,7 @@ export default function Footer() {
                   />
                 </Link>
                 <p className="block text-sm text-gray-400 mb-6 leading-relaxed max-w-md">
-                  Democratizamos el acceso a las IAs más potentes del planeta: compramos al por mayor y compartimos al detal. Especializados en créditos de alta velocidad para <strong>Claude Code CLI</strong>, VS Code, Cursor, Lovable y Capcut.
+                  Democratizamos el acceso a las IAs más potentes del planeta: compramos al por mayor y compartimos al detal. Especializados en créditos de alta velocidad para <strong>Claude Desktop y Claude Code CLI</strong>, VS Code, Cursor, Antigravity y Lovable.
                 </p>
                 <div className="p-3.5 bg-gray-900 border border-gray-800 rounded-xl text-xs text-gray-400 leading-relaxed max-w-md">
                   <span className="font-semibold text-primary-400">⚡ Aviso de Producto Técnico:</span> Se proporciona clave API y Base URL para terminales e IDEs. No es suscripción web a claude.ai.
@@ -102,7 +102,7 @@ export default function Footer() {
                   <nav className="flex flex-col space-y-2.5 text-sm text-gray-400">
                     <span className="hover:text-gray-200 transition">Claude Opus 5 & Sonnet 4.6</span>
                     <span className="hover:text-gray-200 transition">Cursor & VS Code</span>
-                    <span className="hover:text-gray-200 transition">Lovable & Capcut</span>
+                    <span className="hover:text-gray-200 transition">Claude Desktop & CLI</span>
                     <span className="hover:text-gray-200 transition">N8N & OpenClaw</span>
                     <span className="hover:text-gray-200 transition">Python & TS SDK</span>
                   </nav>

@@ -32,9 +32,9 @@ export const CORE_FEATURES = [
     iconUrl: icons.bulb,
   },
   {
-    title: "Compatible con Claude Code, Lovable y Capcut",
+    title: "Compatible con Claude Desktop y Claude Code CLI",
     description:
-      "Conéctalo sin fricciones a Claude Code CLI, Cursor, VS Code, Antigravity, OpenClaw, N8N, Lovable, Capcut y Python SDK.",
+      "Conéctalo sin fricciones con Cursor, VS Code, Antigravity, Codex CLI, OpenClaw, n8n, Lovable, Python SDK y más de 30 herramientas de desarrollo, automatización e IA.",
     iconUrl: icons.laptop,
   },
 ];
