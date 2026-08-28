@@ -94,8 +94,8 @@ export default function PricingSection() {
           <div className="mt-8 pt-6 border-t border-gray-100 dark:border-white/10 grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
             <div className="p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 flex flex-col justify-between">
               <div>
-                <p className="font-bold text-gray-900 dark:text-white text-sm mb-1.5 flex items-center gap-1.5">
-                  <span>📊</span> Preço Oficial da Anthropic
+                <p className="font-bold text-gray-900 dark:text-white text-sm mb-1.5">
+                  Preço Oficial da Anthropic
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Na tabela oficial em{' '}
@@ -114,8 +114,8 @@ export default function PricingSection() {
 
             <div className="p-4 rounded-2xl bg-emerald-500/5 border border-emerald-500/20 flex flex-col justify-between">
               <div>
-                <p className="font-bold text-emerald-700 dark:text-emerald-400 text-sm mb-1.5 flex items-center gap-1.5">
-                  <span>💰</span> A Matemática do Ahorro
+                <p className="font-bold text-emerald-700 dark:text-emerald-400 text-sm mb-1.5">
+                  A Matemática da Economia
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Para usar <strong>25 Milhões de tokens</strong> direto na Anthropic, você gastaria mais de <strong>R$ 390 a R$ 480 reais</strong>. Conosco, você paga apenas <strong>R$ 69,00</strong> (menos de R$ 2,76 por milhão via Pix).
@@ -125,8 +125,8 @@ export default function PricingSection() {
 
             <div className="p-4 rounded-2xl bg-primary-500/5 border border-primary-500/20 flex flex-col justify-between">
               <div>
-                <p className="font-bold text-primary-600 dark:text-primary-400 text-sm mb-1.5 flex items-center gap-1.5">
-                  <span>⚡</span> Como Conseguimos Esse Preço?
+                <p className="font-bold text-primary-600 dark:text-primary-400 text-sm mb-1.5">
+                  Como Conseguimos Esse Preço?
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Compramos computação em grande escala atacadista (pools AWS Vertex AI Max200) e repassamos o desconto de volume diretamente a desenvolvedores brasileiros sem intermediários.
