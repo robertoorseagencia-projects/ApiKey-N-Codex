@@ -52,7 +52,7 @@ export default function Footer() {
                 <Link href="/" className="inline-block mb-4 group">
                   <Image
                     src="/images/logo-claude-api.png"
-                    alt="API KEY IN CODEX"
+                    alt="APIKEY-N-CODEX"
                     width={200}
                     height={48}
                     className="h-10 w-auto object-contain brightness-110 group-hover:opacity-90 transition"

@@ -24,7 +24,7 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/images/logo-claude-api.png"
-                alt="API KEY IN CODEX"
+                alt="APIKEY-N-CODEX"
                 width={180}
                 height={42}
                 className="h-8 sm:h-9 w-auto object-contain transition duration-200 hover:opacity-95"
