@@ -89,7 +89,7 @@ export default function FaqAccordion() {
             Respostas diretas sobre limites de velocidade, cálculo de saldo, suporte a cache e políticas de garantia.
           </p>
         </div>
-        <div className="max-w-[760px] mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="space-y-4">
             {faqItems.map((item) => (
               <FAQItem
