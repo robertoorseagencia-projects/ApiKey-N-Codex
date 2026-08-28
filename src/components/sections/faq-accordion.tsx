@@ -63,6 +63,12 @@ export default function FaqAccordion() {
       answer:
         "Inclui acesso ao Claude Opus 5 Thinking, Opus 4.8 Thinking, Opus 4.6 Thinking, Sonnet 4.6 Thinking e Haiku 4.5. Operamos sobre pools corporativos AWS Vertex AI Max200. Garantimos que nunca degradamos nem substituímos os modelos por versões inferiores.",
     },
+    {
+      id: 9,
+      question: "Como posso conferir os preços oficiais da Anthropic e comparar com o site?",
+      answer:
+        "Você pode conferir a tabela oficial pública em claude.com/pricing#api. Lá você verá que 1 MTok (1 milhão de tokens) custa entre $2 e $15 dólares (cerca de R$ 15 a R$ 75 reais por milhão com impostos IOF de cartão internacional). Enquanto na Anthropic 25 milhões de tokens custam mais de R$ 390 a R$ 480 reais, nós entregamos os mesmos 25 milhões por apenas R$ 69,00 via Pix com entrega automática.",
+    },
   ];
 
   const toggleItem = (itemId: number) => {

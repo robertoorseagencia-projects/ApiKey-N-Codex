@@ -89,6 +89,51 @@ export default function PricingSection() {
               </tbody>
             </table>
           </div>
+
+          {/* Explicación Detallada y Enlace Oficial */}
+          <div className="mt-8 pt-6 border-t border-gray-100 dark:border-white/10 grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+            <div className="p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 flex flex-col justify-between">
+              <div>
+                <p className="font-bold text-gray-900 dark:text-white text-sm mb-1.5 flex items-center gap-1.5">
+                  <span>📊</span> Preço Oficial da Anthropic
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                  Na tabela oficial em{' '}
+                  <a
+                    href="https://claude.com/pricing#api"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-500 font-bold underline hover:text-primary-600 inline-flex items-center gap-0.5"
+                  >
+                    claude.com/pricing#api ↗
+                  </a>
+                  , 1 MTok (1 milhão de tokens) custa de <strong>$2 a $10 dólares</strong> ($10 a $55 reais por cada milhão + IOF no cartão).
+                </p>
+              </div>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-emerald-500/5 border border-emerald-500/20 flex flex-col justify-between">
+              <div>
+                <p className="font-bold text-emerald-700 dark:text-emerald-400 text-sm mb-1.5 flex items-center gap-1.5">
+                  <span>💰</span> A Matemática do Ahorro
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                  Para usar <strong>25 Milhões de tokens</strong> direto na Anthropic, você gastaria mais de <strong>R$ 390 a R$ 480 reais</strong>. Conosco, você paga apenas <strong>R$ 69,00</strong> (menos de R$ 2,76 por milhão via Pix).
+                </p>
+              </div>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-primary-500/5 border border-primary-500/20 flex flex-col justify-between">
+              <div>
+                <p className="font-bold text-primary-600 dark:text-primary-400 text-sm mb-1.5 flex items-center gap-1.5">
+                  <span>⚡</span> Como Conseguimos Esse Preço?
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                  Compramos computação em grande escala atacadista (pools AWS Vertex AI Max200) e repassamos o desconto de volume diretamente a desenvolvedores brasileiros sem intermediários.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Reassurance Banner under plans */}
