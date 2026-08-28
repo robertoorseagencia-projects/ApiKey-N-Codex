@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: '%s | Claude AI Credits & API Keys',
   },
   description:
-    'Democratizamos el acceso a Claude Code, Lovable, Capcut y las mejores IAs. Compra créditos API con Prompt-Caching (hasta 90% de ahorro) y entrega automática 24/7.',
+    'Democratizamos el acceso a Claude Desktop, Claude Code CLI, Cursor y las mejores IAs. Compra créditos API con Prompt-Caching (hasta 90% de ahorro) y entrega automática 24/7.',
 };
 
 export default function RootLayout({

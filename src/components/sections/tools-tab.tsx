@@ -50,14 +50,14 @@ export default function AIToolsTabs() {
         'Compatible con extensiones como Roo Code, Kilo Code, Antigravity y Cursor. Utiliza Claude Opus 5 y Sonnet 4.6 Thinking directamente en tu editor.',
     },
     {
-      id: 'lovable-capcut',
-      label: 'Lovable & Capcut',
+      id: 'lovable-builder',
+      label: 'Lovable AI Builder',
       icon: <ImageGeneratorIcon className="w-8 h-8" />,
       lightImage: '/images/tab-image/tab-image-2.jpg',
       darkImage: '/images/tab-image/tab-image-2-dark.jpg',
-      title: 'Creación Visual y Multimedia con Lovable y Capcut',
+      title: 'Creación Visual y Frontend con Lovable',
       description:
-        'Aprovecha tus créditos de IA para flujos de diseño web instantáneo en Lovable y generación automatizada de contenido multimedia en Capcut.',
+        'Aprovecha tus créditos de IA para flujos de diseño web y prototipado instantáneo en Lovable con Claude Sonnet 4.6.',
     },
     {
       id: 'n8n-agents',

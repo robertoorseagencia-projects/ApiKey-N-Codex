@@ -55,7 +55,7 @@ export default function FaqAccordion() {
       id: 7,
       question: "¿Es una suscripción web a Claude Pro o un producto técnico de API?",
       answer:
-        "Es un producto técnico: recibes una ANTHROPIC_API_KEY, una ANTHROPIC_BASE_URL y el enlace a tu Dashboard personal. No es una cuenta con usuario/contraseña para claude.ai, sino el acceso por API para usar en tu terminal con Claude Code CLI, Cursor, N8N, VS Code, Lovable, Capcut, Roo Code y Python SDK.",
+        "Es un producto técnico: recibes una ANTHROPIC_API_KEY, una ANTHROPIC_BASE_URL y el enlace a tu Dashboard personal. No es una cuenta con usuario/contraseña para claude.ai, sino el acceso por API para usar en tu terminal con Claude Desktop, Claude Code CLI, Cursor, N8N, VS Code, Antigravity, Lovable, Roo Code y Python SDK.",
     },
     {
       id: 8,

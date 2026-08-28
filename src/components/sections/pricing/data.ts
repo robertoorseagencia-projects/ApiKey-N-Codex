@@ -60,11 +60,11 @@ export const CREDIT_PLANS: TBILLING_PLAN[] = [
     amount: 50,
     multiplier: 'Rendimiento real de ~$175–$225 USD con Cache',
     description:
-      'Para constructores de software y flujos combinados con Lovable y Capcut.',
+      'Para constructores de software y flujos avanzados con Lovable, Cursor y Antigravity.',
     features: [
       'Todo lo incluido en el Plan Developer',
       'Rendimiento fluido en sesiones extensas',
-      'Compatible con Lovable, Capcut y OpenClaw',
+      'Compatible con Lovable, Antigravity y OpenClaw',
       'Pool Enterprise AWS Vertex AI Max200',
       'Sin degradación ni corte de modelos',
       'Garantía de reposición de saldo',
