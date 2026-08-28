@@ -120,35 +120,30 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="max-[1100px]:hidden">
-          <Image
-            src="/images/hero/shape-left-1.svg"
-            className="absolute top-14 left-16 floating-1"
-            alt=""
-            width={170}
-            height={44}
-          />
-          <Image
-            src="/images/hero/shape-left-2.svg"
-            className="absolute left-[145px] top-[298px] floating-2 max-[1240px]:left-[80px]"
-            alt=""
-            width={181}
-            height={44}
-          />
-          <Image
-            src="/images/hero/shape-right-1.svg"
-            className="absolute right-16 top-[108px] floating-3"
-            alt=""
-            width={176}
-            height={44}
-          />
-          <Image
-            src="/images/hero/shape-right-2.svg"
-            className="absolute top-[316px] right-[200px] floating-4 max-[1240px]:right-[80px] max-[1350px]:right-[150px] max-[1500px]:right-[200px]"
-            alt=""
-            width={179}
-            height={44}
-          />
+        <div className="max-[1100px]:hidden pointer-events-none select-none">
+          <div className="absolute top-14 left-12 xl:left-16 floating-1">
+            <span className="inline-flex items-center px-4 py-2 rounded-full text-xs font-semibold tracking-tight bg-white/90 dark:bg-white/5 border border-primary-500/25 dark:border-white/10 text-gray-800 dark:text-gray-100 shadow-md shadow-primary-500/5 backdrop-blur-md">
+              Claude Code Desktop/CLI
+            </span>
+          </div>
+
+          <div className="absolute left-[110px] top-[295px] floating-2 max-[1240px]:left-[60px]">
+            <span className="inline-flex items-center px-4 py-2 rounded-full text-xs font-semibold tracking-tight bg-white/90 dark:bg-white/5 border border-primary-500/25 dark:border-white/10 text-gray-800 dark:text-gray-100 shadow-md shadow-primary-500/5 backdrop-blur-md">
+              90% Off Prompt Caching
+            </span>
+          </div>
+
+          <div className="absolute right-12 xl:right-16 top-[108px] floating-3">
+            <span className="inline-flex items-center px-4 py-2 rounded-full text-xs font-semibold tracking-tight bg-white/90 dark:bg-white/5 border border-primary-500/25 dark:border-white/10 text-gray-800 dark:text-gray-100 shadow-md shadow-primary-500/5 backdrop-blur-md">
+              Claude Opus 5 &amp; Sonnet
+            </span>
+          </div>
+
+          <div className="absolute top-[316px] right-[140px] floating-4 max-[1240px]:right-[60px] max-[1350px]:right-[110px] max-[1500px]:right-[140px]">
+            <span className="inline-flex items-center px-4 py-2 rounded-full text-xs font-semibold tracking-tight bg-white/90 dark:bg-white/5 border border-primary-500/25 dark:border-white/10 text-gray-800 dark:text-gray-100 shadow-md shadow-primary-500/5 backdrop-blur-md">
+              Open Claw, Hermes &amp; n8n
+            </span>
+          </div>
         </div>
       </div>
       <div className="hero-glow-bg pointer-events-none w-full h-167.5 absolute z-10 bottom-0"></div>
