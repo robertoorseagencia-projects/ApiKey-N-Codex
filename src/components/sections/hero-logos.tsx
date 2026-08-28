@@ -143,7 +143,7 @@ export default function HeroLogos() {
       <div className="max-w-[1120px] relative z-30 mx-auto pt-10 pb-14 text-center">
         {/* Título */}
         <h2 className="text-center text-white font-bold text-sm sm:text-base md:text-lg tracking-tight mb-7 drop-shadow-xs">
-          Compatible con las principales herramientas de desarrollo y automatización con IA
+          Compatível com as principais ferramentas de desenvolvimento e automação com IA
         </h2>
 
         {/* Badges Fila 1 */}
@@ -179,13 +179,13 @@ export default function HeroLogos() {
         {/* Texto inferior */}
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1.5 text-xs text-slate-300 max-w-4xl mx-auto leading-relaxed">
           <span className="flex items-center gap-1">
-            <span className="text-emerald-400 font-bold">✓</span> Sin VPN ni configuraciones complejas
+            <span className="text-emerald-400 font-bold">✓</span> Sem VPN nem configurações complexas
           </span>
           <span className="flex items-center gap-1">
-            <span className="text-emerald-400 font-bold">✓</span> Conexión estándar mediante <code className="text-primary-400 font-mono text-[11px] bg-slate-800/90 px-2 py-0.5 rounded border border-slate-700 font-semibold">ANTHROPIC_BASE_URL</code>
+            <span className="text-emerald-400 font-bold">✓</span> Conexão padrão via <code className="text-primary-400 font-mono text-[11px] bg-slate-800/90 px-2 py-0.5 rounded border border-slate-700 font-semibold">ANTHROPIC_BASE_URL</code>
           </span>
           <span className="flex items-center gap-1">
-            <span className="text-emerald-400 font-bold">✓</span> También funciona con cualquier aplicación, automatización o backend compatible con conexiones de API estándar.
+            <span className="text-emerald-400 font-bold">✓</span> Também funciona com qualquer aplicação, automação ou backend compatível com conexões de API padrão.
           </span>
         </div>
       </div>

@@ -11,11 +11,11 @@ const onest = Onest({
 export const metadata: Metadata = {
   metadataBase: new URL('https://apikey-n-codex.vercel.app'),
   title: {
-    default: 'APIKEY-N-CODEX | Créditos Claude AI & API Keys al Mejor Precio',
+    default: 'APIKEY-N-CODEX | Créditos Claude AI & API Keys com o Menor Preço',
     template: '%s | APIKEY-N-CODEX',
   },
   description:
-    'Democratizamos el acceso a Claude Desktop, Claude Code CLI, Cursor y las mejores IAs con Prompt-Caching (hasta 90% de ahorro) y entrega automática 24/7.',
+    'Democratizamos o acesso ao Claude Desktop, Claude Code CLI, Cursor e às melhores IAs com Prompt-Caching (até 90% de economia) e entrega automática 24/7.',
   applicationName: 'APIKEY-N-CODEX',
   keywords: [
     'APIKEY-N-CODEX',
@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     'Anthropic API Key',
     'Prompt Caching',
     'Créditos Claude',
+    'API Claude Brasil',
   ],
   icons: {
     icon: [
@@ -40,9 +41,9 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'APIKEY-N-CODEX | Créditos Claude AI al Mejor Precio',
+    title: 'APIKEY-N-CODEX | Créditos Claude AI com o Menor Preço',
     description:
-      'Compra créditos API para Claude Desktop, Claude Code CLI, Cursor, Antigravity y Lovable. Hasta 90% de ahorro con Prompt Caching y entrega automática inmediata 24/7.',
+      'Compre créditos de API para Claude Desktop, Claude Code CLI, Cursor, Antigravity e Lovable. Até 90% de economia com Prompt Caching e entrega automática 24/7.',
     url: 'https://apikey-n-codex.vercel.app',
     siteName: 'APIKEY-N-CODEX',
     images: [
@@ -63,14 +64,14 @@ export const metadata: Metadata = {
         alt: 'APIKEY-N-CODEX Favicon',
       },
     ],
-    locale: 'es_ES',
+    locale: 'pt_BR',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'APIKEY-N-CODEX | Créditos Claude AI al Mejor Precio',
+    title: 'APIKEY-N-CODEX | Créditos Claude AI com o Menor Preço',
     description:
-      'Compra créditos API para Claude Desktop, Claude Code CLI, Cursor y más. 90% ahorro en Prompt Caching y entrega 24/7.',
+      'Compre créditos de API para Claude Desktop, Claude Code CLI, Cursor e mais. 90% de economia em Prompt Caching e entrega 24/7.',
     images: ['https://apikey-n-codex.vercel.app/images/og-image.png'],
   },
 };
@@ -81,7 +82,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <meta property="og:image" content="https://apikey-n-codex.vercel.app/images/og-image.png" />
         <meta property="og:image:secure_url" content="https://apikey-n-codex.vercel.app/images/og-image.png" />

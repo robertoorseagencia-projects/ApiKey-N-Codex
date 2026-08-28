@@ -10,7 +10,7 @@ import { useState } from 'react';
       company: 'Tech Lead @ DevLatam',
       image: '/images/users/user-1.jpg',
       testimonial:
-        'Conectar esta API Key a Claude Code CLI fue inmediato. El Prompt Caching funciona al 100%, las lecturas de caché son 90% más baratas y el saldo de $100 me ha rendido como si fueran $500.',
+        'Conectar esta API Key ao Claude Code CLI foi imediato. O Prompt Caching funciona a 100%, as leituras de cache são 90% mais baratas e o saldo rendeu muito além do esperado.',
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ import { useState } from 'react';
       company: 'Fullstack Engineer & Freelancer',
       image: '/images/users/user-2.jpg',
       testimonial:
-        'Antes pagaba suscripciones mensuales fijas que no aprovechaba. Ahora compro $25 o $50 en créditos y solo gasto cuando desarrollo en Cursor y VS Code. Entrega automática en segundos.',
+        'Antes eu pagava assinaturas mensais fixas que não aproveitava. Agora compro créditos quando preciso e só gasto quando desenvolvo no Cursor e VS Code. Entrega automática em segundos.',
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ import { useState } from 'react';
       company: 'AI Automation Specialist',
       image: '/images/users/user-3.jpg',
       testimonial:
-        'Uso la Base URL en mis pipelines de N8N y agentes OpenClaw. La latencia es mínima gracias al pool AWS Vertex AI y no he tenido ni una sola caída en 3 meses de uso continuo.',
+        'Uso a Base URL nos meus pipelines do N8N e agentes OpenClaw. A latência é mínima graças ao pool AWS Vertex AI e não tive nenhuma queda em meses de uso contínuo.',
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ import { useState } from 'react';
       company: 'Product Designer @ Studio 84',
       image: '/images/users/user-4.jpg',
       testimonial:
-        'Integré los créditos para flujos de prototipado rápido en Lovable y Claude Desktop. El dashboard de monitoreo en tiempo real es súper transparente para ver cuánto consume cada generación.',
+        'Integrei os créditos para fluxos de prototipagem rápida no Lovable e Claude Desktop. O dashboard de monitoramento em tempo real é super transparente para ver quanto consome cada geração.',
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ import { useState } from 'react';
       company: 'Senior Backend Developer',
       image: '/images/users/user-5.jpg',
       testimonial:
-        'Claude Opus 5 Thinking y Sonnet 4.6 funcionan con toda su capacidad de razonamiento. No hay degradación de modelos ni trucos raros, es acceso directo enterprise al mejor precio.',
+        'Claude Opus 5 Thinking e Sonnet 4.6 funcionam com toda a sua capacidade de raciocínio. Não há degradação de modelos nem truques, é acesso enterprise direto pelo menor preço.',
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ import { useState } from 'react';
       company: 'Founder @ AutomateAI',
       image: '/images/users/user-6.jpg',
       testimonial:
-        'El soporte 24/7 respondió una duda de configuración con Roo Code en minutos. Democratizar estos créditos al por mayor es lo mejor que le ha pasado a la comunidad dev.',
+        'O suporte 24/7 respondeu uma dúvida de configuração com o Roo Code em minutos. Democratizar esses créditos no atacado é a melhor coisa que aconteceu para a comunidade dev.',
     },
   ];
 
@@ -68,13 +68,13 @@ import { useState } from 'react';
           <div>
             <div className="max-w-3xl mx-auto mb-14 text-center">
               <span className="inline-block px-3.5 py-1 mb-3 text-xs font-bold uppercase tracking-wider text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-500/10 rounded-full border border-primary-200 dark:border-primary-500/20">
-                Opiniones Reales
+                Depoimentos Reais
               </span>
               <h2 className="mb-4 font-extrabold text-center text-gray-900 text-3xl dark:text-white md:text-title-lg tracking-tight">
-                Lo que dicen desarrolladores y creadores
+                O que dizem desenvolvedores e criadores
               </h2>
               <p className="max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-                Más de 560 desarrolladores ya están ahorrando miles de dólares en sus sesiones de programación y automatización con IA.
+                Mais de 560 desenvolvedores já estão economizando milhares de reais em suas sessões de programação e automação com IA.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ import { useState } from 'react';
                 onClick={() => setShowAll(!showAll)}
                 className="inline-flex items-center dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 px-6 py-3.5 text-sm font-semibold text-gray-800 bg-white border border-gray-200 dark:hover:bg-gray-700 rounded-full shadow-theme-xs hover:bg-gray-50 focus:outline-none transition"
               >
-                <span>{showAll ? 'Mostrar menos' : 'Mostrar más opiniones'}</span>
+                <span>{showAll ? 'Mostrar menos' : 'Mostrar mais depoimentos'}</span>
               </button>
             </div>
           </div>

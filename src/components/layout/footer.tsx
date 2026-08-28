@@ -59,10 +59,10 @@ export default function Footer() {
                   />
                 </Link>
                 <p className="block text-sm text-gray-400 mb-6 leading-relaxed max-w-md">
-                  Democratizamos el acceso a las IAs más potentes del planeta: compramos al por mayor y compartimos al detal. Especializados en créditos de alta velocidad para <strong>Claude Desktop y Claude Code CLI</strong>, VS Code, Cursor, Antigravity y Lovable.
+                  Democratizamos o acesso às IAs mais potentes do planeta: compramos no atacado e compartilhamos no varejo. Especialistas em créditos de alta velocidade para <strong>Claude Desktop e Claude Code CLI</strong>, VS Code, Cursor, Antigravity e Lovable.
                 </p>
                 <div className="p-3.5 bg-gray-900 border border-gray-800 rounded-xl text-xs text-gray-400 leading-relaxed max-w-md">
-                  <span className="font-semibold text-primary-400">⚡ Aviso de Producto Técnico:</span> Se proporciona clave API y Base URL para terminales e IDEs. No es suscripción web a claude.ai.
+                  <span className="font-semibold text-primary-400">⚡ Aviso de Produto Técnico:</span> Fornecemos chave de API e Base URL para terminais e IDEs. Não é assinatura web no claude.ai.
                 </div>
               </div>
             </div>
@@ -72,32 +72,32 @@ export default function Footer() {
               <div className="grid sm:grid-cols-2 gap-8">
                 <div>
                   <span className="block mb-4 text-xs font-bold uppercase tracking-wider text-gray-300">
-                    Plataforma & Planes
+                    Plataforma & Planos
                   </span>
                   <nav className="flex flex-col space-y-2.5">
                     <Link
                       href="#pricing"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
                     >
-                      Planes desde R$ 29
+                      Planos a partir de R$ 29
                     </Link>
                     <Link
                       href="#features"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
                     >
-                      Guía Claude Code CLI
+                      Guia Claude Code CLI
                     </Link>
                     <Link
                       href="#faq"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
                     >
-                      Preguntas Frecuentes
+                      Perguntas Frequentes
                     </Link>
                   </nav>
                 </div>
                 <div>
                   <span className="block mb-4 text-xs font-bold uppercase tracking-wider text-gray-300">
-                    Compatibilidad
+                    Compatibilidade
                   </span>
                   <nav className="flex flex-col space-y-2.5 text-sm text-gray-400">
                     <span className="hover:text-gray-200 transition">Claude Opus 5 & Sonnet 4.6</span>
@@ -114,16 +114,16 @@ export default function Footer() {
             <div className="lg:col-span-3">
               <div>
                 <span className="block mb-4 text-xs font-bold uppercase tracking-wider text-gray-300">
-                  Novedades de Modelos
+                  Novidades de Modelos
                 </span>
                 <p className="block mb-4 text-sm text-gray-400">
-                  Recibe avisos sobre nuevos modelos, descuentos por volumen y optimizaciones de caché.
+                  Receba avisos sobre novos modelos, descontos por volume e otimizações de cache.
                 </p>
                 <form onSubmit={(e) => e.preventDefault()}>
                   <div className="flex flex-col gap-2.5 w-full">
                     <input
                       type="email"
-                      placeholder="tu@email.com"
+                      placeholder="seu@email.com"
                       className="w-full h-11 px-4 text-sm text-white bg-gray-900 border border-gray-800 rounded-xl placeholder:text-gray-500 focus:border-primary-500 focus:outline-none transition"
                       required
                     />
@@ -131,7 +131,7 @@ export default function Footer() {
                       type="submit"
                       className="w-full px-5 py-2.5 text-sm font-semibold text-white transition rounded-xl cursor-pointer bg-primary-600 hover:bg-primary-500 shadow-md shadow-primary-600/20"
                     >
-                      Suscribirme
+                      Inscrever-se
                     </button>
                   </div>
                 </form>
@@ -144,11 +144,11 @@ export default function Footer() {
         <div className="container relative z-10 px-5 mx-auto sm:px-7">
           <div className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
             <p>
-              &copy; {getCurrentYear()} Claude API Codex. Todos los derechos reservados.
+              &copy; {getCurrentYear()} APIKEY-N-CODEX. Todos os direitos reservados.
             </p>
             <div className="flex gap-6">
-              <Link href="#pricing" className="hover:text-gray-400 transition">Términos del Servicio</Link>
-              <Link href="#faq" className="hover:text-gray-400 transition">Política de Garantía</Link>
+              <Link href="#pricing" className="hover:text-gray-400 transition">Termos de Serviço</Link>
+              <Link href="#faq" className="hover:text-gray-400 transition">Política de Garantia</Link>
             </div>
           </div>
         </div>

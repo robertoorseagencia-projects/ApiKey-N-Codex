@@ -2,39 +2,39 @@ import * as icons from "@/assets/homepage/core-features";
 
 export const CORE_FEATURES = [
   {
-    title: "Ahorro de hasta 90% en Prompt Caching",
+    title: "Economia de até 90% com Prompt Caching",
     description:
-      "Los tokens en caché se facturan con 90% de descuento. Obtienes de 5 a 6 veces más uso y contexto en tus sesiones de programación.",
+      "Tokens em cache são faturados com 90% de desconto. Você obtém de 5 a 6 vezes mais uso e contexto nas suas sessões de programação.",
     iconUrl: icons.lightningBolt,
   },
   {
     title: "Pool Enterprise AWS Vertex AI Max200",
     description:
-      "Conexión directa a clústeres de alto rendimiento sin degradación, reducción de velocidad ni sustitución artificial de modelos.",
+      "Conexão direta a clusters de alto desempenho sem degradação, redução de velocidade ou substituição artificial de modelos.",
     iconUrl: icons.crown,
   },
   {
-    title: "Claude Opus 5, Sonnet 4.6 y Haiku 4.5",
+    title: "Claude Opus 5, Sonnet 4.6 e Haiku 4.5",
     description:
-      "Modelos de última generación con soporte completo de razonamiento extendido (Thinking), Opus 4.8 / 4.6 y Sonnet 4.6.",
+      "Modelos de última geração com suporte completo a raciocínio estendido (Thinking), Opus 4.8 / 4.6 e Sonnet 4.6.",
     iconUrl: icons.robot,
   },
   {
-    title: "Entrega Automática Inmediata 24/7",
+    title: "Entrega Automática Imediata 24/7",
     description:
-      "Inmediatamente tras el pago recibes tu ANTHROPIC_API_KEY, ANTHROPIC_BASE_URL y acceso a tu panel de control personal.",
+      "Imediatamente após o pagamento você recebe sua ANTHROPIC_API_KEY, ANTHROPIC_BASE_URL e acesso ao seu painel de controle pessoal.",
     iconUrl: icons.boxCube,
   },
   {
     title: "Dashboard de Consumo Transparente",
     description:
-      "Visualiza cada llamada a la API: tokens de entrada, salida, lecturas de caché e historial de balance en tiempo real.",
+      "Visualize cada chamada à API: tokens de entrada, saída, leituras de cache e histórico de saldo em tempo real.",
     iconUrl: icons.bulb,
   },
   {
-    title: "Compatible con Claude Desktop/CLI",
+    title: "Compatível com Claude Desktop/CLI",
     description:
-      "Conéctalo sin fricciones con Cursor, VS Code, Antigravity, Codex CLI, OpenClaw, n8n, Lovable, Python SDK y más de 30 herramientas de desarrollo, automatización e IA.",
+      "Conecte sem fricção com Cursor, VS Code, Antigravity, Codex CLI, OpenClaw, n8n, Lovable, Python SDK e mais de 30 ferramentas de desenvolvimento, automação e IA.",
     iconUrl: icons.laptop,
   },
 ];

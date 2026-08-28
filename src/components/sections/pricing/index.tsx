@@ -12,13 +12,13 @@ export default function PricingSection() {
       <div className="wrapper">
         <div className="max-w-3xl mx-auto mb-14 text-center">
           <span className="inline-block px-3.5 py-1 mb-3 text-xs font-bold uppercase tracking-wider text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-500/10 rounded-full border border-primary-200 dark:border-primary-500/20">
-            Planes de Saldo Prepago
+            Planos de Saldo Pré-pago
           </span>
           <h2 className="mb-4 font-extrabold text-center text-gray-900 text-3xl sm:text-4xl dark:text-white md:text-title-lg tracking-tight">
-            Elige tu Paquete de Créditos de IA
+            Escolha seu Pacote de Créditos de IA
           </h2>
           <p className="max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-            Compra saldo para la API de <strong>Claude Code, Opus 5, Sonnet 4.6 y Haiku 4.5</strong>. Sin cuotas mensuales ni cobros sorpresa: recargas cuando lo necesitas y aprovechas hasta un <strong>90% de descuento con Prompt Caching</strong>.
+            Compre saldo para a API do <strong>Claude Code, Opus 5, Sonnet 4.6 e Haiku 4.5</strong>. Sem mensalidades nem cobranças surpresa: você recarrega quando precisa e aproveita até <strong>90% de desconto com Prompt Caching</strong>.
           </p>
         </div>
 
@@ -40,10 +40,10 @@ export default function PricingSection() {
             </div>
             <div>
               <p className="font-bold text-gray-900 dark:text-white text-sm">
-                Entrega Inmediata y Transparencia Absoluta
+                Entrega Imediata e Transparência Total
               </p>
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                Recibes tu <code className="text-primary-500 font-mono">ANTHROPIC_API_KEY</code>, <code className="text-primary-500 font-mono">ANTHROPIC_BASE_URL</code> y enlace a tu Dashboard personal de consumo en segundos.
+                Você recebe sua <code className="text-primary-500 font-mono">ANTHROPIC_API_KEY</code>, <code className="text-primary-500 font-mono">ANTHROPIC_BASE_URL</code> e o link para seu Painel de Controle de consumo em segundos.
               </p>
             </div>
           </div>

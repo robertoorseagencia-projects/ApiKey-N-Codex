@@ -19,7 +19,7 @@ export const navItems: NavItem[] = [
   {
     type: 'link',
     href: '/',
-    label: 'Inicio',
+    label: 'Início',
   },
   {
     type: 'link',
@@ -28,7 +28,7 @@ export const navItems: NavItem[] = [
   },
   {
     type: 'link',
-    label: 'Planes & Créditos',
+    label: 'Planos & Créditos',
     href: '/#pricing',
   },
   {

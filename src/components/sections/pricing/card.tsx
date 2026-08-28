@@ -61,7 +61,7 @@ export function PricingCard({ plan }: Props) {
 
           <button
             onClick={() => {
-              alert(`Has seleccionado el ${plan.name} (${plan.credits}). En un entorno de producción serás redirigido a la pasarela de pago para entrega automática 24/7.`);
+              alert(`Você selecionou o ${plan.name} (${plan.credits}). Redirecionando para o checkout seguro com entrega automática 24/7.`);
             }}
             className={cn(
               'block w-full px-6 py-3.5 mt-6 text-sm font-semibold text-center rounded-full transition shadow-xs cursor-pointer',
@@ -76,7 +76,7 @@ export function PricingCard({ plan }: Props) {
 
         <div className="px-6 sm:px-8 pb-7 pt-2">
           <p className="text-xs font-bold uppercase tracking-wider text-gray-400 dark:text-gray-400 mb-3">
-            Qué incluye:
+            O que está incluso:
           </p>
           <ul className="space-y-2.5">
             {plan.features.map((feature) => (

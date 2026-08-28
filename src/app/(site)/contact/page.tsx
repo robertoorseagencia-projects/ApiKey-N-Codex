@@ -4,7 +4,7 @@ import { Textarea } from '@/components/ui/inputs/textarea';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact',
+  title: 'Contato & Suporte | APIKEY-N-CODEX',
 };
 
 export default function ContactPage() {
@@ -12,36 +12,36 @@ export default function ContactPage() {
     <section className="py-28 relative">
       <div className="wrapper">
         <div className="relative max-w-[800px] mx-auto">
-          <div className="contact-wrapper border p-14 relative z-30 bg-white border-gray-100 dark:bg-dark-primary dark:border-gray-800">
+          <div className="contact-wrapper border p-14 relative z-30 bg-white border-gray-100 dark:bg-dark-primary dark:border-gray-800 rounded-3xl shadow-xl">
             <div className="text-center mb-12">
               <h3 className="text-gray-800 font-bold dark:text-white text-3xl mb-2">
-                Need any Help? Get in touch 👋
+                Precisa de Ajuda? Entre em Contato 👋
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Open a ticket, we will get back to you ASAP
+                Suporte técnico especializado 24 horas por dia, 7 dias por semana
               </p>
             </div>
             <form>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <Label htmlFor="firstName">First Name</Label>
-                  <Input type="text" placeholder="Jhamse" />
+                  <Label htmlFor="firstName">Nome</Label>
+                  <Input type="text" placeholder="Seu nome" />
                 </div>
                 <div>
-                  <Label htmlFor="lastName"> Last Name</Label>
-                  <Input type="text" placeholder="Enter your last name" />
+                  <Label htmlFor="lastName">Sobrenome</Label>
+                  <Input type="text" placeholder="Seu sobrenome" />
                 </div>
                 <div className="col-span-full">
-                  <Label htmlFor="email">Email address</Label>
-                  <Input type="text" placeholder="example@gmail.com" />
+                  <Label htmlFor="email">E-mail</Label>
+                  <Input type="email" placeholder="seu@email.com" />
                 </div>
                 <div className="col-span-full">
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea rows={6} placeholder="Type your message" />
+                  <Label htmlFor="message">Mensagem / Dúvida Técnica</Label>
+                  <Textarea rows={6} placeholder="Descreva sua dúvida sobre API Keys, Claude Code ou modelos..." />
                 </div>
                 <div className="col-span-full">
-                  <button className="bg-primary-500 hover:bg-primary-600 transition h-12 py-3 px-6 w-full font-medium text-white text-sm rounded-full">
-                    Send Message
+                  <button className="bg-primary-500 hover:bg-primary-600 transition h-12 py-3 px-6 w-full font-medium text-white text-sm rounded-full cursor-pointer shadow-md shadow-primary-500/20">
+                    Enviar Mensagem
                   </button>
                 </div>
               </div>

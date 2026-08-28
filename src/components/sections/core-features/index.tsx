@@ -7,14 +7,14 @@ export function CoreFeatures() {
       <div className="max-w-[72rem] mx-auto">
         <div className="mb-14 text-center">
           <span className="inline-block px-3.5 py-1 mb-3 text-xs font-bold uppercase tracking-wider text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-500/10 rounded-full border border-primary-200 dark:border-primary-500/20">
-            Ventajas Exclusivas
+            Vantagens Exclusivas
           </span>
           <h2 className="mb-4 font-extrabold text-gray-900 text-3xl dark:text-white md:text-title-lg max-w-2xl mx-auto tracking-tight">
-            ¿Por qué utilizar nuestros créditos API de Claude?
+            Por que utilizar nossos créditos de API do Claude?
           </h2>
 
           <p className="max-w-2xl mx-auto leading-relaxed text-gray-600 dark:text-gray-300 text-base sm:text-lg">
-            Combinamos volumen mayorista y tecnología de optimización de contexto para ofrecerte la experiencia más potente y económica en desarrollo con Inteligencia Artificial.
+            Combinamos volume no atacado e tecnologia de otimização de contexto para oferecer a você a experiência mais potente e econômica em desenvolvimento com Inteligência Artificial.
           </p>
         </div>
 

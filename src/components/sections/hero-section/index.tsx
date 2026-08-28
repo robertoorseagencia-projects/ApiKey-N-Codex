@@ -10,14 +10,14 @@ export default function HeroSection() {
         <div className="wrapper">
           <div className="max-w-[800px] mx-auto">
             <div className="text-center pb-16">
-              <Subheading text="Claude Code ahora mais accesivel para todos" />
+              <Subheading text="Claude Code agora mais acessível para todos" />
 
               <h1 className="text-gray-900 mx-auto font-extrabold mb-5 text-4xl sm:text-5xl lg:text-[54px] dark:text-white sm:leading-[1.18] max-w-[840px] tracking-tight">
-                Créditos para <span className="text-primary-500 underline decoration-primary-300/40 decoration-wavy">Claude Code</span> y las Mejores IAs al Mejor Precio
+                Créditos para <span className="text-primary-500 underline decoration-primary-300/40 decoration-wavy">Claude Code</span> e as Melhores IAs pelo Menor Preço
               </h1>
               
               <p className="max-w-[720px] text-center mx-auto dark:text-gray-300 text-gray-600 text-base sm:text-lg leading-relaxed mb-6">
-                Compartimos capacidad de cómputo adquirida en pools de alto volumen para ofrecerte acceso flexible a <strong>Claude Code</strong> y otros entornos compatibles. Sin barreras de entrada: paga solo por tu consumo, optimiza costos con <strong>Prompt Caching</strong> y recibe acceso inmediato las 24 horas.
+                Compartilhamos capacidade de computação adquirida em pools de alto volume para oferecer acesso flexível ao <strong>Claude Code</strong> e outros ambientes compatíveis. Sem barreiras de entrada: pague apenas pelo que consumir, otimize custos com <strong>Prompt Caching</strong> e receba acesso imediato 24 horas por dia.
               </p>
 
               {/* Social Proof Badges */}
@@ -29,7 +29,7 @@ export default function HeroSection() {
                   <span className="font-bold">2</span> Reembolsos
                 </span>
                 <span className="flex items-center gap-1.5 bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 px-3.5 py-1.5 rounded-full border border-amber-200/60 dark:border-amber-800/40">
-                  ⭐ <span className="font-bold">86</span> Reseñas (4.9/5)
+                  ⭐ <span className="font-bold">86</span> Avaliações (4.9/5)
                 </span>
                 <span className="flex items-center gap-1.5 bg-primary-50 dark:bg-white/5 px-3.5 py-1.5 rounded-full border border-primary-200/60 dark:border-white/10">
                   ⚡ Entrega Automática 24/7
@@ -41,7 +41,7 @@ export default function HeroSection() {
                   href="#pricing"
                   className="gradient-btn h-12 inline-flex items-center justify-center px-8 py-3 rounded-full text-white text-base font-bold shadow-lg shadow-primary-500/25 hover:scale-[1.03] transition transform"
                 >
-                  Ver Planes de Créditos
+                  Ver Planos de Créditos
                 </Link>
               </div>
             </div>
