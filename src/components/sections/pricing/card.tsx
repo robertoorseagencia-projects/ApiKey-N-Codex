@@ -38,19 +38,31 @@ export function PricingCard({ plan }: Props) {
           </div>
 
           <div className="mt-4 pb-4 border-b border-gray-100 dark:border-white/5">
+            {/* Comparativa con Anthropic Oficial */}
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="text-xs text-gray-400 line-through">
+                Anthropic Oficial: {plan.officialPrice}
+              </span>
+              <span className="px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 font-bold text-[11px]">
+                {plan.discount}
+              </span>
+            </div>
+
+            {/* Precio Real */}
             <div className="flex items-baseline gap-1.5">
               <span className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white tracking-tight">
                 {plan.price}
               </span>
-              <span className="text-sm font-semibold text-primary-500">
-                USD
+              <span className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+                pagamento único via Pix
               </span>
             </div>
             
-            <p className="mt-1 font-bold text-xs text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
-              <span>⚡ {plan.credits}</span>
-            </p>
-            <p className="text-[11px] font-medium text-amber-600 dark:text-amber-400 mt-0.5">
+            {/* Tokens y Saldo */}
+            <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-500/10 border border-primary-200/80 dark:border-primary-500/20 text-xs font-bold text-primary-600 dark:text-primary-400">
+              <span>⚡ {plan.tokens}</span>
+            </div>
+            <p className="text-[11px] font-medium text-amber-600 dark:text-amber-400 mt-2">
               {plan.multiplier}
             </p>
           </div>
@@ -61,7 +73,7 @@ export function PricingCard({ plan }: Props) {
 
           <button
             onClick={() => {
-              alert(`Você selecionou o ${plan.name} (${plan.credits}). Redirecionando para o checkout seguro com entrega automática 24/7.`);
+              alert(`Você selecionou o ${plan.name} (${plan.tokens}). Redirecionando para o checkout via Pix com entrega automática 24/7.`);
             }}
             className={cn(
               'block w-full px-6 py-3.5 mt-6 text-sm font-semibold text-center rounded-full transition shadow-xs cursor-pointer',

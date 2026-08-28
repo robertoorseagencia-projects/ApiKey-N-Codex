@@ -22,8 +22,8 @@ export default function PricingSection() {
           </p>
         </div>
 
-        {/* 6 Plans Grid: 2 rows of 3 items on large screens */}
-        <div className="z-30 relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto items-stretch">
+        {/* 3 Plans Grid */}
+        <div className="z-30 relative grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto items-stretch">
           {CREDIT_PLANS.map((plan, index) => (
             <PricingCard
               key={index}
@@ -32,8 +32,67 @@ export default function PricingSection() {
           ))}
         </div>
 
+        {/* Anthropic Direct vs APIKEY-N-CODEX Comparison Table */}
+        <div className="mt-16 max-w-4xl mx-auto bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-3xl p-6 sm:p-10 shadow-sm">
+          <div className="text-center mb-8">
+            <span className="inline-block px-3 py-1 mb-2 text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/30 rounded-full border border-emerald-200/60 dark:border-emerald-800/40">
+              Economia Comprovada
+            </span>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-gray-900 dark:text-white tracking-tight">
+              Anthropic API Oficial vs. APIKEY-N-CODEX
+            </h3>
+            <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-1">
+              Veja por que nossos créditos em pool corporativo são até 84% mais baratos:
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs sm:text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-gray-200 dark:border-white/10">
+                  <th className="py-3 px-4 font-bold text-gray-900 dark:text-white">Recurso / Pacote</th>
+                  <th className="py-3 px-4 font-bold text-gray-500 dark:text-gray-400">Anthropic Oficial (Dólar)</th>
+                  <th className="py-3 px-4 font-bold text-primary-500 bg-primary-500/5 rounded-t-xl">APIKEY-N-CODEX (Pix)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 dark:divide-white/5">
+                <tr>
+                  <td className="py-3.5 px-4 font-medium text-gray-700 dark:text-gray-300">Forma de Pagamento</td>
+                  <td className="py-3.5 px-4 text-gray-500 dark:text-gray-400">Cartão Internacional + 6.38% IOF</td>
+                  <td className="py-3.5 px-4 font-bold text-emerald-600 dark:text-emerald-400 bg-primary-500/5">Pix Imediato sem IOF</td>
+                </tr>
+                <tr>
+                  <td className="py-3.5 px-4 font-medium text-gray-700 dark:text-gray-300">25M Tokens (Starter)</td>
+                  <td className="py-3.5 px-4 text-gray-500 dark:text-gray-400 line-through">~R$ 390,00</td>
+                  <td className="py-3.5 px-4 font-extrabold text-gray-900 dark:text-white bg-primary-500/5">R$ 69,00 <span className="text-emerald-500 text-xs font-bold ml-1">(82% OFF)</span></td>
+                </tr>
+                <tr>
+                  <td className="py-3.5 px-4 font-medium text-gray-700 dark:text-gray-300">50M Tokens (Pro Builder)</td>
+                  <td className="py-3.5 px-4 text-gray-500 dark:text-gray-400 line-through">~R$ 780,00</td>
+                  <td className="py-3.5 px-4 font-extrabold text-gray-900 dark:text-white bg-primary-500/5">R$ 129,00 <span className="text-emerald-500 text-xs font-bold ml-1">(83% OFF)</span></td>
+                </tr>
+                <tr>
+                  <td className="py-3.5 px-4 font-medium text-gray-700 dark:text-gray-300">100M Tokens (Power Dev)</td>
+                  <td className="py-3.5 px-4 text-gray-500 dark:text-gray-400 line-through">~R$ 1.560,00</td>
+                  <td className="py-3.5 px-4 font-extrabold text-gray-900 dark:text-white bg-primary-500/5">R$ 249,00 <span className="text-emerald-500 text-xs font-bold ml-1">(84% OFF)</span></td>
+                </tr>
+                <tr>
+                  <td className="py-3.5 px-4 font-medium text-gray-700 dark:text-gray-300">Prompt Caching</td>
+                  <td className="py-3.5 px-4 text-gray-500 dark:text-gray-400">Padrão</td>
+                  <td className="py-3.5 px-4 font-bold text-primary-500 bg-primary-500/5">Até 90% Desconto Ativo</td>
+                </tr>
+                <tr>
+                  <td className="py-3.5 px-4 font-medium text-gray-700 dark:text-gray-300">Velocidade e Entrega</td>
+                  <td className="py-3.5 px-4 text-gray-500 dark:text-gray-400">Manual / Limites baixos</td>
+                  <td className="py-3.5 px-4 font-bold text-emerald-600 dark:text-emerald-400 bg-primary-500/5">Automática 24/7 (120 RPM)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* Reassurance Banner under plans */}
-        <div className="mt-14 max-w-4xl mx-auto p-5 sm:p-6 bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left shadow-xs">
+        <div className="mt-10 max-w-4xl mx-auto p-5 sm:p-6 bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left shadow-xs">
           <div className="flex items-center gap-3.5">
             <div className="size-10 rounded-full bg-emerald-100 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg shrink-0">
               ✓
