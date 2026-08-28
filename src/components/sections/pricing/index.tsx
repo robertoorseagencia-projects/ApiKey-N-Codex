@@ -33,7 +33,7 @@ export default function PricingSection() {
         </div>
 
         {/* Anthropic Direct vs APIKEY-N-CODEX Comparison Table */}
-        <div className="mt-16 max-w-4xl mx-auto bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-3xl p-6 sm:p-10 shadow-sm">
+        <div className="mt-16 max-w-6xl mx-auto bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-3xl p-6 sm:p-10 shadow-sm">
           <div className="text-center mb-8">
             <span className="inline-block px-3 py-1 mb-2 text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/30 rounded-full border border-emerald-200/60 dark:border-emerald-800/40">
               Economia Comprovada
@@ -137,7 +137,7 @@ export default function PricingSection() {
         </div>
 
         {/* Reassurance Banner under plans */}
-        <div className="mt-10 max-w-4xl mx-auto p-5 sm:p-6 bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left shadow-xs">
+        <div className="mt-10 max-w-6xl mx-auto p-5 sm:p-6 bg-white dark:bg-white/[0.03] border border-gray-200 dark:border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left shadow-xs">
           <div className="flex items-center gap-3.5">
             <div className="size-10 rounded-full bg-emerald-100 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg shrink-0">
               ✓
