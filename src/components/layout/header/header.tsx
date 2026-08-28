@@ -21,7 +21,7 @@ export default function Header() {
       <div className="px-4 sm:px-6 lg:px-7">
         <div className="grid grid-cols-2 items-center lg:grid-cols-[1fr_auto_1fr]">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/" className="flex items-center">
               <Image
                 src="/images/logo-claude-api.png"
                 alt="APIKEY-N-CODEX"
@@ -30,9 +30,6 @@ export default function Header() {
                 className="h-8 sm:h-9 w-auto object-contain transition duration-200 hover:opacity-95"
                 priority
               />
-              <span className="hidden sm:inline-block px-2.5 py-0.5 rounded-full bg-primary-500/15 text-primary-600 dark:text-primary-400 text-[11px] font-bold border border-primary-500/20">
-                Auto 24/7
-              </span>
             </Link>
           </div>
 
