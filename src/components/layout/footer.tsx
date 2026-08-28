@@ -82,7 +82,7 @@ export default function Footer() {
                       Planes desde R$ 29
                     </Link>
                     <Link
-                      href="#tools"
+                      href="#features"
                       className="text-sm text-gray-400 transition hover:text-primary-400"
                     >
                       Guía Claude Code CLI
